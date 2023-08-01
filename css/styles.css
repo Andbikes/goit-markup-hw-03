@@ -1,8 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455 ;
-    background-color: #FFFFFF
-
+    background-color: #FFFFFF;
 }
 
 :root{
@@ -10,6 +9,25 @@ body {
     --navyblue: #2E2F42;
     --slate: #434455;
     --cloud: #F4F4FD
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin-top: 0; margin-bottom: 0;
+}
+
+ul, ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 3px solid red;
+
 }
 
 .link {
@@ -23,7 +41,18 @@ body {
 
 /*-------------HEADER-------------*/
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container{
+    display: flex; 
+    gap: 332px;
+}
+
  .logo-web {
+    display: flex;
     color: var(--iris);
     font-family: "Raleway", sans-serif; 
     font-size: 18px;
@@ -44,13 +73,28 @@ font-family: Raleway, sans-serif;
     color: var(--navyblue);
 }
 
+
 .header-list {
+    display: flex;
     color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    gap: 40px;
+}
+
+.header-navigation{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-address-list{
+    gap: 40px;
+    display: flex;   
 }
 
 .header-link {
@@ -68,7 +112,7 @@ font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;   
 }
 
 .header-address-go{
@@ -99,9 +143,17 @@ color: #404bbf;
 /*--------------MAIN------------*/
     /*-----section-btn-----*/
 
-    .btn{
+    .btn-container{
+    padding-top: 188px;
+    padding-bottom: 292px;
     background-color:var(--navyblue)
+    
     }
+
+    .btn{
+    /*background-color:var(--navyblue)*/
+    }
+
     .btn-heder{
     color: #FFF;
     text-align: center;
@@ -110,7 +162,13 @@ color: #404bbf;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    }
+    max-width: 496px;
+    margin: auto;
+    margin-bottom: 48px;
+    
+    
+    
+}
 
     .btn-button{
         color:#FFF;
@@ -123,6 +181,9 @@ color: #404bbf;
         letter-spacing: 0.04em;
         background: #4D5AE5;
         cursor: pointer;
+        padding: 16px 32px;
+        border-radius: 4px;
+        border: none;
        }
        .btn-button:hover{
         background-color: #404BBF;}
@@ -134,6 +195,7 @@ color: #404bbf;
 
 .section-banner{
     background-color:  #2e2f42:
+    
 }
     .section-banner-subtitle{
     color: #2E2F42;
