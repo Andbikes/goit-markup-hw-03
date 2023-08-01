@@ -27,7 +27,7 @@ ul, ol{
     padding-right: 15px;
     margin: 0 auto;
     outline: 3px solid red;
-
+    border-bottom: 1px solid #e7e9fc ;
 }
 
 .link {
@@ -61,8 +61,8 @@ ul, ol{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-  
-} 
+    margin-right: 76px;
+  } 
 
 .logo-web-studio{
 color: var(--navyblue);
@@ -104,6 +104,7 @@ font-family: Raleway, sans-serif;
     font-weight: 500;
     line-height: 1,5;
     letter-spacing: 0.02em; 
+    padding: 24px 0px;
 }
 
 .header-address {
@@ -144,17 +145,10 @@ color: #404bbf;
     /*-----section-btn-----*/
 
     .btn-container{
-    padding-top: 188px;
-    padding-bottom: 292px;
-    background-color:var(--navyblue)
-    
-    }
+    padding: 188px 0;
+    background-color:var(--navyblue)}
 
-    .btn{
-    /*background-color:var(--navyblue)*/
-    }
-
-    .btn-heder{
+    .btn-heder {
     color: #FFF;
     text-align: center;
     font-size: 56px;
@@ -163,12 +157,7 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin: auto;
-    margin-bottom: 48px;
-    
-    
-    
-}
+    margin-bottom: 48px;}
 
     .btn-button{
         color:#FFF;
@@ -184,7 +173,10 @@ color: #404bbf;
         padding: 16px 32px;
         border-radius: 4px;
         border: none;
+        display: block;
+        min-width: 169px;
        }
+
        .btn-button:hover{
         background-color: #404BBF;}
         .btn-button:focus{
@@ -194,9 +186,23 @@ color: #404bbf;
     /*-----section-banner-----*/
 
 .section-banner{
-    background-color:  #2e2f42:
-    
+    background-color:  #2e2f42;
+    padding: 120px 0;
 }
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
     .section-banner-subtitle{
     color: #2E2F42;
     font-size: 20px;
@@ -213,6 +219,13 @@ color: #404bbf;
     letter-spacing: 0.02em;
 }
 
+.section-banner-list{
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-72px)/4);
+    margin-bottom: 8px;
+}
+
    /*-----section-services-----*/
 
 .section-services-header{
@@ -223,12 +236,21 @@ color: #404bbf;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color:#FFFFFF
+    background-color:#FFFFFF;
+    padding-bottom: 120px;
+    margin-bottom: 72px;
+}
+
+.section-services-link{
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-48px)/3);
 }
    /*-----section-workers-----*/
 
    .section-workers{
     background-color: var(--cloud);
+    padding: 120px 0;
    }
 
 .section-workers-heder{
@@ -243,6 +265,14 @@ color: #404bbf;
   
 .section-workers-link{
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.worker{
+    padding: 32px 0;
 }
 
 .section-workers-subtitle{
@@ -251,7 +281,10 @@ color: #404bbf;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
 } 
+
 .section-workers-text{
     color: #434455;
 text-align: center;
@@ -260,12 +293,15 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 /*----------FOOTER------------*/
 
+
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
     }
 
 .footer-text{
@@ -286,6 +322,8 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logofoot-web-studio{
@@ -297,16 +335,77 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /*--------PORTFOLIO--------*/
-       /*------1--------*/
 
+img{
+    display: block;
+}
+
+.container{
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+}
+
+/*--------------header-----------*/
+
+.header{
+    border-bottom: 1px solid#e7e9fc;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.logo-web-studio{
+    margin-right: 76px;
+}
+
+.menu link{
+    display: flex;
+    gap: 40px;
+    padding: 24px;
+}
+
+.header-address-list{
+    display: flex;
+    gap: 40px;
+}
+
+       /*-------------section-button-------------*/
+
+       .section-button{
+        padding: 96px 0 120px 0;
+       }
 .btn-portfolio{
     list-style: none;
 }
-     /*--------2--------*/
-     .btn-portfolio-list{
+
+.container-banner{
+    display: flex;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+     /*---------------btn---------------*/
+
+     .btn-portfolio{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -315,6 +414,10 @@ letter-spacing: 0.02em;
         color: var(--iris);
         background-color: var(--cloud);
         cursor: pointer;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
     }
 
 .btn-portfolio-link{
@@ -326,14 +429,20 @@ letter-spacing: 0.02em;
     color: var(--iris);
     background-color: var(--cloud);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
+
 .btn-portfolio-link:hover{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .btn-portfolio-link:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 /*-----------3----------*/
