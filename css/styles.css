@@ -94,13 +94,14 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 25.5px 0 25.5px 0;
+    margin-right: 76px;
 
 }
 
 .logo-web-studio {
     color: var(--navyblue);
     font-family: Raleway, sans-serif;
-    margin-right: 76px;
+    
 }
 
 .studio {
@@ -117,7 +118,7 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 24px 0 24px 0;
+    padding: 24px 0;
 }
 
 .header-item {
