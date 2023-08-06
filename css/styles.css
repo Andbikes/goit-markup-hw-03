@@ -128,11 +128,12 @@ border-bottom: 1px solid #e7e9fc;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-menu {
     color: var(--navyblue);
-    padding: 24px 0;
+    
 }
 
 .header-menu:hover {
