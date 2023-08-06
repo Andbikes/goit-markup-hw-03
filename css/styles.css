@@ -36,7 +36,7 @@ img {
 
 .container {
     width: 100%;
-    max-width: 1470px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -76,7 +76,6 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1158px;
 }
 
 .header-navigation {
