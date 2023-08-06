@@ -217,7 +217,7 @@ padding: 188px 0;
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    margin: auto;
+    margin: 0 auto;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -245,6 +245,7 @@ display: flex;
 gap: 24px;
 padding-left: 156px;
 padding-right: 156px;
+flex-wrap: wrap;
 }
 
 .section-banner-item {
