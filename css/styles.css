@@ -401,46 +401,6 @@ width: calc((100% - 48) / 3);
 }
 
 /*--------PORTFOLIO--------*/
-/*------1--------*/
-
-.btn-portfolio {
-    list-style: none;
-}
-
-/*--------2--------*/
-.btn-portfolio-list {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--iris);
-    background-color: var(--cloud);
-    cursor: pointer;
-}
-
-.btn-portfolio-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--iris);
-    background-color: var(--cloud);
-    cursor: pointer;
-}
-
-.btn-portfolio-link:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-
-.btn-portfolio-link:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-
-/*-----------3----------*/
 
 .list {
     list-style: none;
@@ -450,6 +410,65 @@ width: calc((100% - 48) / 3);
 .link {
     text-decoration: none;
 }
+
+/*------port-btn--------*/
+.port-btn {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.container-port-btn {
+    align-items: center;
+}
+
+.port-btn-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.port-btn-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+    width: calc((100% - 96px) /5);
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #E7E9FC;
+    background: #F4F4FD;
+}
+
+.port-btn-item:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.btn-item:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+/*-----------3----------*/
+
+
 
 .picture-porfolio-header {
     font-weight: 500;
