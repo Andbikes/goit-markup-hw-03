@@ -248,9 +248,9 @@ padding-right: 156px;
 }
 
 .section-banner-item {
-    max-width: 264px;
-    
-    }
+    /*max-width: 264px;
+    width: calc((100% - 72px) / 4);
+   */ }
 
 .section-banner-subtitle {
     color: #2E2F42;
@@ -258,8 +258,7 @@ padding-right: 156px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;  
 }
 
 .section-banner-text {
@@ -274,6 +273,7 @@ padding-right: 156px;
 
 .section-services {
     margin-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-services-header {
