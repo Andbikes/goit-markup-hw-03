@@ -327,7 +327,7 @@ width: calc((100% - 48) / 3);
 .section-workers-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc(100% - 72) / 4;
+    width: calc((100% - 72) / 4);
 }
 
 .container-workers-discription {
