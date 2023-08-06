@@ -248,9 +248,9 @@ padding-right: 156px;
 }
 
 .section-banner-item {
-    /*max-width: 264px;
+    /*max-width: 264px;*/
     width: calc((100% - 72px) / 4);
-   */ }
+ }
 
 .section-banner-subtitle {
     color: #2E2F42;
@@ -302,15 +302,15 @@ padding-right: 156px;
 
 /*-----section-workers-----*/
 
+.section-workers {
+  padding: 120px;  
+} 
+
 .container-workers {
-    background-color: var(--cloud);
-    width: 1440px;
-    height: 732px;  
+    background-color: var(--cloud); 
 }
 
-.section-workers {
-    
-}   
+  
 
 
 .section-workers-heder {
@@ -337,8 +337,8 @@ padding-right: 156px;
 
 .section-workers-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
     /*width: calc(100% - 72) / 4;*/
-
 }
 
 .section-workers-subtitle {
