@@ -290,14 +290,11 @@ padding-right: 156px;
 
 .section-services-list{
     display: flex;
-    padding-left: 156px;
-    padding-right: 156px;
-    gap: 24px;
-    
+    gap: 24px; 
 }
 
 .section-services-item{
-    /*width: calc((100% - 48) / 3);*/
+width: calc((100% - 48) / 3);
 }
 
 /*-----section-workers-----*/
@@ -362,6 +359,7 @@ padding-right: 156px;
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0 ;
 }
 
 .footer-text {
@@ -382,6 +380,8 @@ padding-right: 156px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logofoot-web-studio {
@@ -393,6 +393,10 @@ padding-right: 156px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer-text {
+    max-width: 264px;
 }
 
 /*--------PORTFOLIO--------*/
