@@ -118,7 +118,7 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 
 .header-item {
@@ -132,6 +132,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .header-menu {
     color: var(--navyblue);
+    padding: 24px 0;
 }
 
 .header-menu:hover {
