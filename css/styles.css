@@ -411,7 +411,7 @@ width: calc((100% - 48) / 3);
     text-decoration: none;
 }
 
-/*------port-btn--------*/
+/*------portfolio-btn--------*/
 .port-btn {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -441,13 +441,13 @@ width: calc((100% - 48) / 3);
     color: var(--iris);
     background-color: var(--cloud);
     cursor: pointer;
-    width: calc((100% - 96px) /5);
     padding: 12px 24px;
     border-radius: 4px;
     margin: 0 auto;
     display: block;
     border: 1px solid #E7E9FC;
     background: #F4F4FD;
+    text-align: center;
 }
 
 .port-btn-item:hover {
@@ -462,22 +462,38 @@ width: calc((100% - 48) / 3);
     border: 1px solid transparent;
 }
 
-/*-----------3----------*/
+/*-----------portfolio-img----------*/
 
+.port-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
 
+.port-img-item {
+    width: calc((100% - 48) / 3);
+}
 
-.picture-porfolio-header {
+.container-img-content {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.port-img-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
     text-decoration: none;
+    margin-bottom: 8px;
 }
 
-.picture-porfolio-text {
+.port-img-text {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5port-img-text;
     letter-spacing: 0.02em;
     color: var(--slate);
     text-decoration: none;
