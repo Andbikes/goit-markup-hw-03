@@ -128,13 +128,9 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.02em;
 }
 
-.containere-header-menu {
-    padding: 24px 0;
-}
-
 .header-menu {
     color: var(--navyblue);
-    
+    padding: 24px 0;
 }
 
 .header-menu:hover {
